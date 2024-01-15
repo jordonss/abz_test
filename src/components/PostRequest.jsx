@@ -48,7 +48,6 @@ export default function PostRequest() {
 						<input type='file' placeholder='Upload your photo' />
 					</div>
 					<Button>Sign up</Button>
-					<Button>Sign up</Button>
         </form>
       </div>
     </div>
