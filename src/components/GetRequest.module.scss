@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.requestSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1170px;
+	margin-top: 140px;
+}
+
+.requestSection h2 {
+	font-size: 40px;
+}
+
+.users {
+	width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 29px;
+  grid-row-gap: 29px;
+	margin-bottom: 50px;
+}

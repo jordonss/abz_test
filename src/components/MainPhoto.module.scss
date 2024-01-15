@@ -1,0 +1,22 @@
+.mainPhoto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/pexels-alexandr-podvalny-1227513.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.text {
+  width: 380px;
+}
